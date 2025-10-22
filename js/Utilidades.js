@@ -44,3 +44,12 @@ function crearTagConTextoAdicionarABody(tag, texto) {
     adicionarTagABody(tag);
 
 }
+
+function crearImg(src, alt) {
+
+    var img = crearElemento('img');
+    img.src = src;
+    img.alt = alt;
+    return img;
+
+}
